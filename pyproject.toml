@@ -43,6 +43,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+finetune = [
+    "peft>=0.17",
+    "accelerate>=1.0",
+]
 stable = [
     "torch==2.8.0",
     "torchaudio",

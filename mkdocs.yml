@@ -58,6 +58,7 @@ nav:
   - Introduction: en/index.md
   - Installation: en/install.md
   - Inference: en/inference.md
+  - Fine-tuning: en/finetune.md
 
 # Plugins
 plugins:

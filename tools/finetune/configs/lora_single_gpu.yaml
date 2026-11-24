@@ -1,0 +1,40 @@
+# python tools/finetune/train.py tools/finetune/configs/lora_single_gpu.yaml
+# One 80 GB SM89+ GPU (H100 / H200 / L40S 48 GB with --max_rows 2048), FP8 experts.
+checkpoint_path: checkpoints/drama-3
+devices: auto
+fp8_experts: auto
+
+train_manifest: data/prepared/manifest.jsonl
+# eval_manifest: data/prepared/eval.jsonl
+output_dir: results/drama3-myvoice
+
+mode: lora
+lora_preset: backbone      # attention | backbone
+lora_r: 32
+lora_alpha: 32
+tower: lora                # lora | full | frozen
+# tower_learning_rate: 2.0e-5   # with tower: full
+
+# Task mixture for target-speaker rows (replay rows are always cloning).
+default_prob: 0.55
+history_prob: 0.2
+clone_prob: 0.25
+language_hint_prob: 0.2
+max_rows: 4096
+kl_weight: 0.0             # 0.05-0.1 with role=replay rows from other voices
+
+learning_rate: 1.0e-4
+lr_scheduler_type: cosine
+warmup_steps: 0.03       # a fraction < 1 is a ratio of total steps
+weight_decay: 0.0
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16
+max_grad_norm: 1.0
+bf16: true
+logging_steps: 10
+save_steps: 500
+save_total_limit: 3
+dataloader_num_workers: 4
+report_to: none
+seed: 42

@@ -1,0 +1,23 @@
+{"kind": "plain", "language": "en", "text": "The quarterly numbers are in, and they look better than anyone expected."}
+{"kind": "plain", "language": "en", "text": "Turn left at the second light, then keep going until you see the old bakery on the corner."}
+{"kind": "point_tag", "language": "en", "text": "[sighs] Fine. If we miss the train, it's on you. [laughs] Well, maybe that's fair."}
+{"kind": "point_tag", "language": "en", "text": "Wait [pause] did you hear that? [gasps] Someone's at the door."}
+{"kind": "scoped_tag", "language": "en", "text": "Promise me <whisper>you won't tell her about the surprise</whisper>, okay?"}
+{"kind": "scoped_tag", "language": "en", "text": "I said it <emphasis>three times</emphasis> already, and <slow>nobody was listening</slow>."}
+{"kind": "style_prefix", "language": "en", "text": "[with bright eager excitement] We won! I can't believe we actually won!"}
+{"kind": "style_prefix", "language": "en", "text": "[icy calm, as if you already accepted it] So this is goodbye."}
+{"kind": "director_note", "language": "en", "text": "Direction: tired and a little amused, like the end of a long shift. Put the stress on \"finally\".\nLine: And just like that, we're finally done for the day."}
+{"kind": "multilingual", "language": "zh", "text": "你好，欢迎收听今天的节目，我们马上开始。"}
+{"kind": "multilingual", "language": "ja", "text": "今日はとても良い天気ですね。少し散歩に行きませんか。"}
+{"kind": "multilingual", "language": "ko", "text": "오늘 회의는 오후 세 시에 시작합니다. 늦지 마세요."}
+{"kind": "multilingual", "language": "es", "text": "Mañana salimos temprano, así que prepara la maleta esta noche."}
+{"kind": "multilingual", "language": "fr", "text": "Je pense que nous devrions attendre encore un peu avant de décider."}
+{"kind": "multilingual", "language": "de", "text": "Das Konzert beginnt um acht Uhr, wir sollten rechtzeitig losfahren."}
+{"kind": "multilingual", "language": "pt", "text": "Eu nunca imaginei que a viagem seria tão longa, mas valeu a pena."}
+{"kind": "multilingual", "language": "it", "text": "Abbiamo prenotato un tavolo per le nove, spero che non piova."}
+{"kind": "multilingual", "language": "ru", "text": "Пожалуйста, позвоните мне, когда доберётесь до гостиницы."}
+{"kind": "multilingual", "language": "ar", "text": "شكراً لكم جميعاً على الحضور، سنبدأ الاجتماع الآن."}
+{"kind": "multilingual", "language": "hi", "text": "आज की बैठक बहुत अच्छी रही, सबने अपनी राय खुलकर दी।"}
+{"kind": "multilingual_tag", "language": "es", "text": "[whispering] No hagas ruido, el bebé por fin se durmió."}
+{"kind": "multilingual_tag", "language": "zh", "text": "[laughing] 你真的这么做了？太好笑了吧！"}
+{"kind": "language_hint", "language": "fr", "text": "Bienvenue à tous, et merci d'être venus si nombreux. [language: fr]"}
